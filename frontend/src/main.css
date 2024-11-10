@@ -1,3 +1,23 @@
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	src: url(./assets/font/Lato/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Lato";
+	font-style: bold;
+	font-weight: 700;
+	src: url(./assets/font/Lato/Lato-Bold.ttf) format("truetype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	* {
+		font-family: "Lato", sans-serif;
+	}
+}
