@@ -1,6 +1,6 @@
 const Membership = () => {
 	return (
-		<div className="pt-10 pb-16 bg-blue-100 -mx-20">
+		<div className="pt-10 pb-16 bg-blue-50 -mx-20">
 			<h1 className="text-3xl text-center font-bold mb-10">Maximize your experience</h1>
 			<div className="flex justify-center gap-12">
 				<div className="p-10 bg-white rounded-xl flex flex-col relative">

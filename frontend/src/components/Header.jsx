@@ -11,13 +11,13 @@ export const Header = () => {
 					<p className="text-3xl font-lato font-bold">TQ-Max</p>
 				</Link>
 				<div className="flex gap-7 text-xl items-center ms-14">
-					<Link to="/" className={`hover:text-blue-300 py-8 border-b-2 ${location.pathname == "/" ? "border-b-slate-500" : "border-b-transparent"}`}>
+					<Link to="/" className={`hover:font-bold py-8 border-b-2 ${location.pathname == "/" ? "border-b-slate-500" : "border-b-transparent"}`}>
 						Home
 					</Link>
-					<Link to="/calculator" className={`hover:text-blue-300 py-8 border-b-2 ${location.pathname == "/calculator" ? "border-b-slate-500" : "border-b-transparent"}`}>
+					<Link to="/calculator" className={`hover:font-bold py-8 border-b-2 ${location.pathname == "/calculator" ? "border-b-slate-500" : "border-b-transparent"}`}>
 						Calculator
 					</Link>
-					<Link to="/payment" className={`hover:text-blue-300 py-8 border-b-2 ${location.pathname == "/payment" ? "border-b-slate-500" : "border-b-transparent"}`}>
+					<Link to="/payment" className={`hover:font-bold py-8 border-b-2 ${location.pathname == "/payment" ? "border-b-slate-500" : "border-b-transparent"}`}>
 						Payment
 					</Link>
 				</div>
