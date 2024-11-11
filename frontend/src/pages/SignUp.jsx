@@ -15,17 +15,17 @@ const SignUp = () => {
 				<div className="flex flex-col gap-3">
 					<div>
 						<div>Email</div>
-						<input type="email" className="border rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
+						<input type="email" className="ease-in-out duration-1000 border-2 rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
 					</div>
 					<div>
 						<div>Password</div>
-						<input type="password" className="border rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
+						<input type="password" className="ease-in-out duration-1000 border-2 rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
 					</div>
 					<div>
 						<div>Confirm Password</div>
-						<input type="password" className="border rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
+						<input type="password" className="ease-in-out duration-1000 border-2 rounded-md outline-none py-1 px-2 w-full hover:border-blue-300 focus:border-blue-300" />
 					</div>
-					<button className="bg-blue-100 ms-auto px-4 py-2 rounded-md mt-2 hover:bg-blue-200">Register</button>
+					<button className="bg-blue-100 ease-in-out duration-500 ms-auto px-4 py-2 rounded-md mt-2 hover:bg-blue-200">Register</button>
 				</div>
 			</div>
 		</div>

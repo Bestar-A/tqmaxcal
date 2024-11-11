@@ -10,7 +10,7 @@ const Contact = () => {
 					<div className="pt-4 flex flex-col gap-3">
 						<input type="text" placeholder="Enter your email" className="w-full outline-none border py-1 px-2 rounded-md hover:border-blue-200 focus:border-blue-200" />
 						<textarea rows={8} placeholder="Drop your message" className="w-full outline-none border py-1 px-2 rounded-md hover:border-blue-200 focus:border-blue-200"></textarea>
-						<button className="py-1 rounded-md border border-blue-300 hover:bg-blue-300 flex justify-center items-center gap-2">
+						<button className="py-1 ease-in-out duration-500 rounded-md border border-blue-300 hover:bg-blue-300 flex justify-center items-center gap-2">
 							<BsFillSendFill />
 							Send
 						</button>
