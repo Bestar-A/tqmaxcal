@@ -23,10 +23,10 @@ export const Header = () => {
 				</div>
 				<div className="flex gap-3 ms-auto text-xl">
 					<Link to="/login">
-						<button className={`py-3 px-3 border-blue-300 border rounded-md hover:bg-blue-300 ${location.pathname == "/login" && "bg-blue-300"}`}>Login</button>
+						<button className={`py-2 px-3 border-blue-300 border rounded-md hover:bg-blue-300 ${location.pathname == "/login" && "bg-blue-300"}`}>Login</button>
 					</Link>
 					<Link to="/register">
-						<button className={`py-3 px-3 border-blue-300 border rounded-md hover:bg-blue-300 ${location.pathname == "/register" && "bg-blue-300"}`}>Register</button>
+						<button className={`py-2 px-3 border-blue-300 border rounded-md hover:bg-blue-300 ${location.pathname == "/register" && "bg-blue-300"}`}>Register</button>
 					</Link>
 				</div>
 			</div>
