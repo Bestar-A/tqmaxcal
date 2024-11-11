@@ -16,7 +16,7 @@ const Home = () => {
 								You can earn Cashback Rewards with your everyday spending when you shop online at on e of over 400 400 TQ-Max Merchants, you will automatically get a percentage of your
 								purchases back as Cash Rewards. Just like paying yourself your own commission from buying they thing you need - <span className="font-semibold">Why Not?</span>
 							</h2>
-							<button className="px-4 py-2 mt-10 ms-auto border rounded-md border-blue-300 flex items-center gap-2 hover:bg-blue-300">
+							<button className="px-4 py-2 ease-in-out duration-500 mt-10 ms-auto border rounded-md border-blue-300 flex items-center gap-2 hover:bg-blue-300">
 								LEARN MORE
 								<AiOutlineDoubleRight />
 							</button>

@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Calculator from "./pages/Calculator";
 import Payment from "./pages/Payment";
+import Notyet from "./pages/Notyet";
 
 export const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -14,6 +15,7 @@ export const router = createBrowserRouter(
 			<Route path="/register" element={<SignUp />} />
 			<Route path="/calculator" element={<Calculator />} />
 			<Route path="/payment" element={<Payment />} />
+			<Route path="/guide" element={<Notyet />} />
 		</Route>
 	),
 	{
