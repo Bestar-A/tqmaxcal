@@ -18,7 +18,7 @@ const Home = () => {
 								<AiOutlineDoubleRight />
 							</button>
 						</div>
-						<img src="../../src/assets/images/home_1.jpg" alt="Get your dream home" width={1920} height={1097} className="w-full h-full rounded-xl shadow-2xl" />
+						<img src="/assets/images/home_1.jpg" alt="Get your dream home" width={1920} height={1097} className="w-full h-full rounded-xl shadow-2xl" />
 					</div>
 					<div className="my-10">
 						<h1 className="text-center mb-10 text-3xl font-bold">What our customers say</h1>
