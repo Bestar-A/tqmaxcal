@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
 	return (
 		<div className="w-full absolute -z-10 top-0 left-0" style={{ height: "100vh" }}>
-			<img src="../../src/assets/images/back.jpg" alt="TQ-MAX" width={1920} height={1097} className="w-full h-full object-center" />
+			<img src="/assets/images/back.jpg" alt="TQ-MAX" width={1920} height={1097} className="w-full h-full object-center" />
 			<div className="rounded-lg shadow-md shadow-gray-300 lg:w-1/4 absolute lg:top-1/2 lg:right-1/4 z-10 bg-white lg:translate-x-1/2 lg:-translate-y-1/2 py-9 px-10">
 				<div className="text-2xl mb-4 font-bold">Register</div>
 				<div className="flex gap-3 mb-7">
