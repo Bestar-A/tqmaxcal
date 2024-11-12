@@ -1,4 +1,3 @@
-import { AiOutlineDoubleRight } from "react-icons/ai";
 import Testimonials from "../components/Testimonial";
 import Footer from "../components/Footer";
 import Membership from "../components/Membership";
@@ -7,21 +6,32 @@ import Contact from "../components/Contact";
 const Home = () => {
 	return (
 		<>
-			<div className="px-20">
+			<div className="px-20 overflow-x-hidden relative">
 				<div className="max-w-[1600px] mx-auto">
-					<div className="py-20 px-5 columns-2 gap-10" id="intro">
-						<div className="p-10 flex flex-col content-center h-full">
-							<h1 className="text-3xl font-bold mb-10">Get Cashback to Pay-Off your Mortgage!</h1>
-							<h2 className="mb-8">
-								You can earn Cashback Rewards with your everyday spending when you shop online at on e of over 400 400 TQ-Max Merchants, you will automatically get a percentage of your
-								purchases back as Cash Rewards. Just like paying yourself your own commission from buying they thing you need - <span className="font-semibold">Why Not?</span>
+					<div className="py-20 px-5 flex gap-10 relative" id="intro">
+						<div className="p-10 flex flex-col content-center h-full ms-[10%] w-[46%]">
+							<h1 className="text-3xl font-bold mb-10">
+								Automate your Mortgage Acceleration with
+								<br /> Round-Ups and Save
+							</h1>
+							<h2 className="border rounded-xl p-8 shadow-xl">
+								Take control of our finances with our MAC1 Mortgage Acceleration System. Track, Manage and Payoff your Mortgage Early and Save on mortgage interest.
+								<br />
+								<br />
+								• Use Round-ups and Spare Change to accelerate your Mortgage
+								<br />
+								<br />• Use Additional Lumpsum to turbocharge your Mortgage Payoff and be mortgage-free sooner while reducing the total mortgage interest paid
 							</h2>
-							<button className="px-4 py-2 ease-in-out duration-500 mt-10 ms-auto border rounded-md border-blue-300 flex items-center gap-2 hover:bg-blue-300">
-								LEARN MORE
-								<AiOutlineDoubleRight />
-							</button>
 						</div>
-						<img src="/assets/images/home_1.jpg" alt="Get your dream home" width={1920} height={1097} className="w-full h-full rounded-xl shadow-2xl" />
+						<img src="/assets/images/phone.png" alt="Get your dream home" width={1920} height={1097} className="w-[20rem] absolute right-[10%] top-10" />
+						<img
+							src="/assets/images/dots.png"
+							alt="Get your dream home"
+							width={1920}
+							height={1097}
+							className="top-[50%] -right-20 translate-x-1/2 -translate-y-1/2 opacity-90 absolute -z-50 w-[65rem]"
+							// style={{ animationDuration: "200s" }}
+						/>
 					</div>
 					<Membership />
 					<div className="my-10">

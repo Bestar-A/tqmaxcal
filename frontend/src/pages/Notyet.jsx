@@ -1,5 +1,3 @@
-import React from "react";
-
 const Notyet = () => {
 	return (
 		<div className="flex h-72 w-full justify-center items-center">
