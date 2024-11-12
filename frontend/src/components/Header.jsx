@@ -10,22 +10,28 @@ export const Header = () => {
 			}`}
 		>
 			<div className="flex items-center mx-auto max-w-[1600px]">
-				<Link to="/" className="flex items-center">
-					<img src="/logo.png" alt="#" width={600} height={500} className="w-24 h-20" />
-					<p className="text-3xl font-lato font-bold">TQ-Max</p>
+				<Link to="/">
+					<div className="flex items-center">
+						<img src="/logo.png" alt="#" width={600} height={500} className="w-24 h-20" />
+						<p className="text-3xl font-lato font-bold">MAC1</p>
+					</div>
+					<p className="-mt-3">Mortgage Acceleration Calculator</p>
 				</Link>
 				<div className="flex gap-7 text-xl items-center ms-14">
 					<Link to="/" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/" ? "border-b-slate-500" : "border-b-transparent"}`}>
 						Home
 					</Link>
 					<Link to="/guide" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/guide" ? "border-b-slate-500" : "border-b-transparent"}`}>
-						How To
+						How it Works
+					</Link>
+					<Link to="/start" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/start" ? "border-b-slate-500" : "border-b-transparent"}`}>
+						Get Started
 					</Link>
 					<Link to="/calculator" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/calculator" ? "border-b-slate-500" : "border-b-transparent"}`}>
-						Calculator
+						Calculators
 					</Link>
-					<Link to="/payment" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/payment" ? "border-b-slate-500" : "border-b-transparent"}`}>
-						Payment
+					<Link to="/contact" className={`ease-linear duration-700 py-8 border-b-2 ${location.pathname == "/contact" ? "border-b-slate-500" : "border-b-transparent"}`}>
+						Contact
 					</Link>
 				</div>
 				<div className="flex gap-3 ms-auto text-xl">
