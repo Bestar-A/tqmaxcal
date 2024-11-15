@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Calculator from "./pages/Calculator";
-import Notyet from "./pages/Notyet";
+import NotReady from "./pages/NotReady";
 import GetStarted from "./pages/GetStarted";
 import ContactUs from "./pages/ContactUs";
 
@@ -14,10 +14,10 @@ export const router = createBrowserRouter(
 			<Route path="/" element={<Home />} />
 			<Route path="/login" element={<Login />} />
 			<Route path="/register" element={<SignUp />} />
-			<Route path="/calculator" element={<Calculator />} />
-			<Route path="/start" element={<GetStarted />} />
-			<Route path="/contact" element={<ContactUs />} />
-			<Route path="/guide" element={<Notyet />} />
+			<Route path="/calculator" element={<NotReady />} />
+			<Route path="/start" element={<NotReady />} />
+			<Route path="/contact" element={<NotReady />} />
+			<Route path="/guide" element={<NotReady />} />
 		</Route>
 	),
 	{
